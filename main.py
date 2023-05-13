@@ -15,5 +15,5 @@ class Application:
 
 
 if __name__ == '__main__':
-    app = Application('login.csv', 'output_login.csv')
+    app = Application('input.csv', 'output.csv')
     app.process()
